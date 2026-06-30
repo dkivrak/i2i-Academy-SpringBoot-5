@@ -65,15 +65,21 @@ The project was also deployed on a Google Cloud VM. Java 21, Maven, and Git were
 The application was tested successfully through the VM external IP address on port 8080.
 
 ## Repository Structure
+
+```text
 .
 ├── src
-│   └── main
-│       ├── java
-│       │   └── springboot
-│       │       ├── SpringbootApplication.java
-│       │       └── WelcomeController.java
-│       └── resources
+│   ├── main
+│   │   ├── java
+│   │   │   └── springboot
+│   │   │       ├── SpringbootApplication.java
+│   │   │       └── WelcomeController.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
 ├── pom.xml
 ├── mvnw
 ├── mvnw.cmd
+├── .gitignore
 └── README.md
+```

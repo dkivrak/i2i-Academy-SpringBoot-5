@@ -1,4 +1,4 @@
-# i2i-Academy-SpringBoot-5
+# i2i-Academy - Spring Boot
 
 This repository contains a basic Spring Boot REST API project created for the i2i Academy Spring Boot homework.
 
